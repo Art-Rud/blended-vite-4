@@ -34,7 +34,11 @@ const Form = () => {
           required
           autoFocus
         />
-        <input className={style.input} onChange={handleFilter} />
+        <input
+          className={style.input}
+          onChange={handleFilter}
+          placeholder="Search todo"
+        />
       </form>
     </>
   );

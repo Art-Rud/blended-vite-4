@@ -11,7 +11,6 @@ import {
 import { useEffect, useState } from 'react';
 
 const EditForm = () => {
-  const todos = useSelector(state => state.todos.items);
   const [text, SetText] = useState('');
   const todoToEdit = useSelector(selectCurentTodo);
   const dispatch = useDispatch();
